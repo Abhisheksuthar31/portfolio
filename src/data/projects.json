@@ -1,0 +1,113 @@
+[
+  {
+    "id": "e-commerce-app",
+    "title": "E-Commerce Mobile App",
+    "slug": "e-commerce-mobile-app",
+    "summary": "Full-stack React Native e-commerce app with payment integration",
+    "description": "A comprehensive mobile shopping application built with React Native, featuring user authentication, product catalog, shopping cart, and secure payment processing through Stripe integration.",
+    "role": "Full-Stack Developer",
+    "teamSize": "Solo Project",
+    "tech": ["React Native", "Node.js", "MongoDB", "Stripe API", "Redux"],
+    "repoUrl": "https://github.com/abhisheksuthar31/ecommerce-app",
+    "demoUrl": "https://demo-ecommerce-app.com",
+    "category": "Mobile",
+    "status": "Completed",
+    "duration": "3 months",
+    "highlights": [
+      "Implemented secure user authentication and authorization",
+      "Integrated Stripe payment gateway for seamless transactions",
+      "Built responsive UI with smooth animations and transitions",
+      "Achieved 95% user satisfaction in beta testing",
+      "Deployed to both iOS and Android app stores"
+    ],
+    "challenges": [
+      "Optimizing app performance for low-end devices",
+      "Implementing secure payment processing",
+      "Managing complex state with Redux"
+    ],
+    "learnings": [
+      "Advanced React Native development patterns",
+      "Payment gateway integration best practices",
+      "Mobile app deployment processes"
+    ],
+    "images": [
+      "/assets/projects/ecommerce-1.jpg",
+      "/assets/projects/ecommerce-2.jpg",
+      "/assets/projects/ecommerce-3.jpg"
+    ]
+  },
+  {
+    "id": "task-manager-web",
+    "title": "Task Management Dashboard",
+    "slug": "task-management-dashboard",
+    "summary": "Modern web dashboard for team task management and collaboration",
+    "description": "A responsive web application built with React and TypeScript for managing team projects and tasks. Features real-time collaboration, deadline tracking, and progress visualization.",
+    "role": "Frontend Developer",
+    "teamSize": "3 developers",
+    "tech": ["React", "TypeScript", "Tailwind CSS", "Firebase", "Chart.js"],
+    "repoUrl": "https://github.com/abhisheksuthar31/task-manager",
+    "demoUrl": "https://taskflow-demo.netlify.app",
+    "category": "Web",
+    "status": "Completed",
+    "duration": "2 months",
+    "highlights": [
+      "Built responsive dashboard with modern UI/UX",
+      "Implemented real-time data synchronization",
+      "Created interactive charts and analytics",
+      "Added drag-and-drop task management",
+      "Achieved 98% accessibility score"
+    ],
+    "challenges": [
+      "Real-time data synchronization across multiple users",
+      "Complex state management for nested task hierarchies",
+      "Optimizing performance for large datasets"
+    ],
+    "learnings": [
+      "Advanced React patterns and hooks",
+      "Real-time database management with Firebase",
+      "Accessibility best practices in web development"
+    ],
+    "images": [
+      "/assets/projects/taskmanager-1.jpg",
+      "/assets/projects/taskmanager-2.jpg",
+      "/assets/projects/taskmanager-3.jpg"
+    ]
+  },
+  {
+    "id": "flutter-weather-app",
+    "title": "Weather Forecast App",
+    "slug": "flutter-weather-app",
+    "summary": "Beautiful Flutter app with weather forecasts and location services",
+    "description": "A stunning weather application built with Flutter, featuring location-based weather data, 7-day forecasts, weather maps, and customizable themes with smooth animations.",
+    "role": "Mobile Developer",
+    "teamSize": "Solo Project",
+    "tech": ["Flutter", "Dart", "OpenWeather API", "Google Maps", "SQLite"],
+    "repoUrl": "https://github.com/abhisheksuthar31/flutter-weather",
+    "demoUrl": "https://play.google.com/store/weather-app",
+    "category": "Flutter",
+    "status": "In Progress",
+    "duration": "1.5 months",
+    "highlights": [
+      "Integrated multiple weather APIs for accurate data",
+      "Implemented location-based services",
+      "Created beautiful animations and transitions",
+      "Added offline data caching capabilities",
+      "Designed custom widgets and themes"
+    ],
+    "challenges": [
+      "Handling location permissions across platforms",
+      "Optimizing API calls and data caching",
+      "Creating smooth animations without performance issues"
+    ],
+    "learnings": [
+      "Flutter widget lifecycle and state management",
+      "Working with device APIs and permissions",
+      "Performance optimization in mobile apps"
+    ],
+    "images": [
+      "/assets/projects/weather-1.jpg",
+      "/assets/projects/weather-2.jpg",
+      "/assets/projects/weather-3.jpg"
+    ]
+  }
+]
