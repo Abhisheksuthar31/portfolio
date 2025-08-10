@@ -171,7 +171,10 @@ export const About = () => {
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-1">
                           <h4 className="font-semibold text-foreground">{item.title}</h4>
-                          <Badge variant="secondary" className="text-xs glass">
+                          <Badge 
+                            variant="secondary" 
+                            className="text-xs glass bg-gray-900 text-gray-200 dark:bg-gray-200 dark:text-gray-900"
+                          >
                             {item.year}
                           </Badge>
                         </div>

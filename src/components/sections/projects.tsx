@@ -219,7 +219,10 @@ export const Projects = () => {
               {/* Project Content */}
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <Badge variant="secondary" className="glass">
+                  <Badge 
+                    variant="secondary" 
+                    className="glass bg-gray-900 text-gray-200 dark:bg-gray-200 dark:text-gray-900"
+                  >
                     {project.category}
                   </Badge>
                   <Badge

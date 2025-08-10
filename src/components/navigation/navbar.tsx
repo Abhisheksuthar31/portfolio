@@ -30,9 +30,11 @@ export const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          {/* Stylish Text Logo */}
           <div className="flex-shrink-0">
-            <img className="h-10 w-10" src={logo} alt="Abhishek Suthar" />
+            <span className="font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent tracking-wide drop-shadow-lg select-none">
+              Abhishek Suthar
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -42,7 +44,7 @@ export const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-105"
+                  className="text-lg font-semibold text-gray-300 dark:text-muted-foreground hover:text-primary px-3 py-2 rounded-md transition-all duration-300 hover:scale-105"
                 >
                   {item.name}
                 </a>
@@ -74,7 +76,7 @@ export const Navbar = () => {
             >
               <Mail className="h-5 w-5" />
             </a>
-            <Button variant="outline" size="sm" className="glass-button ml-4">
+            <Button variant="outline" size="sm" className="glass-button ml-4 font-semibold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-900 border-none shadow-md hover:bg-primary hover:text-white transition-all">
               Resume
             </Button>
           </div>
@@ -104,7 +106,7 @@ export const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                  className="text-lg font-semibold text-gray-300 dark:text-muted-foreground hover:text-primary block px-3 py-2 rounded-md transition-colors duration-300"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
@@ -137,7 +139,7 @@ export const Navbar = () => {
                 </a>
               </div>
               <div className="mt-3 px-5">
-                <Button variant="outline" className="w-full glass-button">
+                <Button variant="outline" className="w-full glass-button font-semibold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-900 border-none shadow-md hover:bg-primary hover:text-white transition-all">
                   Download Resume
                 </Button>
               </div>

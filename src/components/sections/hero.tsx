@@ -34,12 +34,12 @@ export const Hero = () => {
                 <span className="text-foreground">Developer</span>
               </h1>
               
-              <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl animate-fadeInUp [animation-delay:0.2s] opacity-0">
+              <p className="text-xl md:text-2xl text-gray-300 dark:text-muted-foreground max-w-2xl animate-fadeInUp [animation-delay:0.2s] opacity-0">
                 Building polished user experiences with modern technologies.
                 Passionate about creating seamless digital solutions.
               </p>
-              
-              <p className="text-lg text-muted-foreground max-w-2xl animate-fadeInUp [animation-delay:0.4s] opacity-0">
+
+              <p className="text-lg text-gray-300 dark:text-muted-foreground max-w-2xl animate-fadeInUp [animation-delay:0.4s] opacity-0">
                 B.Tech Student at Poornima Institute, Jaipur | Former Student Council Captain | 
                 National Football Championship Participant
               </p>
@@ -80,15 +80,15 @@ export const Hero = () => {
             <div className="grid grid-cols-3 gap-8 pt-8 animate-fadeInUp [animation-delay:0.8s] opacity-0">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">5+</div>
-                <div className="text-sm text-muted-foreground">Projects</div>
+                <div className="text-sm text-gray-300 dark:text-muted-foreground">Projects</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent">3+</div>
-                <div className="text-sm text-muted-foreground">Years Learning</div>
+                <div className="text-sm text-gray-300 dark:text-muted-foreground">Years Learning</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">1</div>
-                <div className="text-sm text-muted-foreground">Championship</div>
+                <div className="text-sm text-gray-300 dark:text-muted-foreground">Championship</div>
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ export const Hero = () => {
               {/* Profile Image Container */}
               <div className="relative glass-card p-2 rounded-full animate-float">
                 <img
-                  src={headshot}
+                  src="/abhi_port.jpg"
                   alt="Abhishek Suthar"
                   className="w-80 h-80 rounded-full object-cover"
                 />
