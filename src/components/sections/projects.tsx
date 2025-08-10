@@ -33,7 +33,7 @@ export const Projects = () => {
             <h3 className="text-2xl font-bold text-foreground">{project.title}</h3>
             <button
               onClick={onClose}
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-muted-foreground hover:text-foreground transition-colors text-white"
             >
               ✕
             </button>
@@ -52,7 +52,7 @@ export const Projects = () => {
                   <h4 className="font-semibold text-foreground mb-2">Tech Stack</h4>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech: string, index: number) => (
-                      <Badge key={index} variant="secondary" className="glass">
+                      <Badge key={index} variant="secondary" className="glass text-gray-300 dark:text-gray-200">
                         {tech}
                       </Badge>
                     ))}
@@ -82,22 +82,22 @@ export const Projects = () => {
 
             <div className="space-y-6">
               <div>
-                <h4 className="font-semibold text-foreground mb-2">Project Overview</h4>
-                <p className="text-muted-foreground">{project.description}</p>
+                <h4 className="font-semibold text-black-900  mb-2">Project Overview</h4>
+                <p className="text-gray-300 dark:text-muted-foreground">{project.description}</p>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <h5 className="font-medium text-foreground">Role</h5>
-                  <p className="text-muted-foreground text-sm">{project.role}</p>
+                  <p className="text-gray-300 dark:text-muted-foreground text-sm">{project.role}</p>
                 </div>
                 <div>
                   <h5 className="font-medium text-foreground">Duration</h5>
-                  <p className="text-muted-foreground text-sm">{project.duration}</p>
+                  <p className="text-gray-300 foreground text-gray">{project.duration}</p>
                 </div>
                 <div>
                   <h5 className="font-medium text-foreground">Team Size</h5>
-                  <p className="text-muted-foreground text-sm">{project.teamSize}</p>
+                  <p className="text-gray-300 foreground text-gray">{project.teamSize}</p>
                 </div>
                 <div>
                   <h5 className="font-medium text-foreground">Status</h5>
@@ -114,7 +114,7 @@ export const Projects = () => {
                 <h4 className="font-semibold text-foreground mb-3">Key Achievements</h4>
                 <ul className="space-y-2">
                   {project.highlights.map((highlight: string, index: number) => (
-                    <li key={index} className="text-muted-foreground text-sm flex items-start">
+                    <li key={index} className="text-gray-300 foreground text-sm flex items-start">
                       <span className="text-primary mr-2">•</span>
                       {highlight}
                     </li>
@@ -127,7 +127,7 @@ export const Projects = () => {
                   <h4 className="font-semibold text-foreground mb-3">Challenges & Solutions</h4>
                   <ul className="space-y-2">
                     {project.challenges.map((challenge: string, index: number) => (
-                      <li key={index} className="text-muted-foreground text-sm flex items-start">
+                      <li key={index} className="text-gray-300 foreground text-sm flex items-start">
                         <span className="text-accent mr-2">•</span>
                         {challenge}
                       </li>

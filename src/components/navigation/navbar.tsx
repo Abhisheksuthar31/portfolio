@@ -44,7 +44,7 @@ export const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-lg font-semibold text-gray-300 dark:text-muted-foreground hover:text-primary px-3 py-2 rounded-md transition-all duration-300 hover:scale-105"
+                  className="text-lg font-semibold text-blue-500 dark:text-muted-foreground hover:text-primary px-3 py-2 rounded-md transition-all duration-300 hover:scale-105"
                 >
                   {item.name}
                 </a>
@@ -58,7 +58,7 @@ export const Navbar = () => {
               href="https://github.com/abhisheksuthar31"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className=" hover:text-primary transition-colors duration-300 "
             >
               <Github className="h-5 w-5" />
             </a>
@@ -66,19 +66,17 @@ export const Navbar = () => {
               href="https://linkedin.com/in/abhisheksuthar"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className=" hover:text-primary transition-colors duration-300"
             >
               <Linkedin className="h-5 w-5" />
             </a>
             <a
               href="mailto:abhisheksuthar3112@gmail.com"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className=" hover:text-primary transition-colors duration-300"
             >
               <Mail className="h-5 w-5" />
             </a>
-            <Button variant="outline" size="sm" className="glass-button ml-4 font-semibold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-900 border-none shadow-md hover:bg-primary hover:text-white transition-all">
-              Resume
-            </Button>
+            
           </div>
 
           {/* Mobile menu button */}
@@ -106,7 +104,7 @@ export const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-lg font-semibold text-gray-300 dark:text-muted-foreground hover:text-primary block px-3 py-2 rounded-md transition-colors duration-300"
+                  className="text-lg font-semibold text-blue-500 dark:text-muted-foreground hover:text-primary block px-3 py-2 rounded-md transition-colors duration-300"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}

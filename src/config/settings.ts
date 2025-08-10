@@ -37,7 +37,7 @@ export const SITE_CONFIG = {
 
   // File URLs
   files: {
-    resume: "https://example.com/abhishek-suthar-resume.pdf", // Dummy resume download URL
+    resume: "/resume.pdf", // Dummy resume download URL
     cv: "/resume.pdf", // Local CV file
     logo: "/src/assets/logo.svg",
     profileImage: "/src/assets/profile-photo.jpg"
