@@ -42,6 +42,15 @@ export const Contact = () => {
 
     setIsSubmitting(true);
 
+    // Log all form data to console
+    console.log('=== CONTACT FORM SUBMISSION ===');
+    console.log('Name:', formData.name);
+    console.log('Email:', formData.email);
+    console.log('Subject:', formData.subject);
+    console.log('Message:', formData.message);
+    console.log('Timestamp:', new Date().toISOString());
+    console.log('================================');
+
     try {
       // Simulate form submission - replace with actual Formspree endpoint
       // await fetch('https://formspree.io/f/YOUR_FORM_ID', {

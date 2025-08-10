@@ -59,6 +59,11 @@ export const Hero = () => {
                 variant="outline" 
                 size="lg" 
                 className="glass-button group"
+                onClick={() => {
+                  // Download resume from URL
+                  const resumeUrl = "https://drive.google.com/file/d/1dGcmUxHKjhGK7wE2vEn4FZxQwE8R9tE1/view?usp=sharing";
+                  window.open(resumeUrl, '_blank');
+                }}
               >
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                 Download Resume

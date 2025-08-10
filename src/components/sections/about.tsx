@@ -102,10 +102,6 @@ export const About = () => {
               </div>
 
               <div className="mt-8 flex flex-wrap gap-4">
-                <Button size="lg" className="glass-button bg-gradient-to-r from-primary to-accent">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Schedule a Chat
-                </Button>
                 <Button variant="outline" size="lg" className="glass-button">
                   Download CV
                 </Button>

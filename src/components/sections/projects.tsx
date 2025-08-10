@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import projectsData from '@/data/projects.json';
 
-const filterOptions = ['All', 'Web', 'Mobile', 'Flutter'];
+const filterOptions = ['All', 'Web', 'Mobile', 'MERN Stack'];
 
 export const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -269,12 +269,6 @@ export const Projects = () => {
           ))}
         </div>
 
-        {/* Load More Projects */}
-        <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="glass-button">
-            View All Projects
-          </Button>
-        </div>
       </div>
 
       {/* Project Modal */}

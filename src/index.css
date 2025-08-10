@@ -78,27 +78,35 @@
     /* Light Theme Overrides */
     --background: 220 20% 95%;
     --background-secondary: 220 15% 90%;
-    --foreground: 220 30% 8%;
+    --foreground: 0 0% 5%; /* Dark text for light mode */
     
     --glass-bg: 255 255 255 / 0.25;
     --glass-border: 255 255 255 / 0.3;
     --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
     
-    --card-foreground: 220 30% 8%;
-    --popover-foreground: 220 30% 8%;
-    --secondary-foreground: 220 30% 8%;
-    --muted-foreground: 215 15% 35%;
+    --card-foreground: 0 0% 5%; /* Dark text for light mode */
+    --popover-foreground: 0 0% 5%; /* Dark text for light mode */
+    --secondary-foreground: 0 0% 5%; /* Dark text for light mode */
+    --muted-foreground: 0 0% 45%; /* Medium gray for light mode */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive elements */
   }
 
   .dark {
     /* Dark theme is default, but explicit for clarity */
     --background: 220 30% 8%;
     --background-secondary: 220 25% 12%;
-    --foreground: 210 40% 98%;
+    --foreground: 0 0% 95%; /* Light text for dark mode */
     
     --glass-bg: 255 255 255 / 0.1;
     --glass-border: 255 255 255 / 0.2;
     --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    
+    --card-foreground: 0 0% 95%; /* Light text for dark mode */
+    --popover-foreground: 0 0% 95%; /* Light text for dark mode */
+    --secondary-foreground: 0 0% 95%; /* Light text for dark mode */
+    --muted-foreground: 0 0% 65%; /* Light gray for dark mode */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive elements */
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
