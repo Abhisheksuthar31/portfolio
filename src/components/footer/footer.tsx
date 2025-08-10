@@ -48,7 +48,7 @@ export const Footer = () => {
             <p className="text-muted-foreground mb-6 max-w-md">
               Passionate web and mobile developer creating innovative solutions 
               with modern technologies. Always excited to take on new challenges 
-              and build amazing user experiences.
+              and build amazing user experiences. Created portfolio with Arman & ravi.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
@@ -116,9 +116,10 @@ export const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border">
           <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4 md:mb-0">
-            <span>© 2024 Abhishek Suthar. Made with</span>
+            <span>© 2024 Abhishek Suthar. Made 
+              <a href="/developers.txt" target='_blank'> in Assosiation with </a>
+                Arman</span>
             <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-            <span>and lots of coffee</span>
           </div>
 
           <div className="flex items-center space-x-4">
