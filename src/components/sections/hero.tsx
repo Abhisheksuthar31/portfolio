@@ -3,6 +3,7 @@ import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import headshot from '@/assets/headshot.jpg';
 import heroBg from '@/assets/hero-bg.jpg';
+import { SITE_CONFIG } from '@/config/settings';
 
 export const Hero = () => {
   return (
@@ -60,9 +61,14 @@ export const Hero = () => {
                 size="lg" 
                 className="glass-button group"
                 onClick={() => {
-                  // Download resume from URL
-                  const resumeUrl = "https://drive.google.com/file/d/1dGcmUxHKjhGK7wE2vEn4FZxQwE8R9tE1/view?usp=sharing";
-                  window.open(resumeUrl, '_blank');
+                  console.log("downloaded");
+                  // Create a temporary link to download the resume
+                  const link = document.createElement('a');
+                  link.href = SITE_CONFIG.files.resume;
+                  link.download = 'Abhishek-Suthar-Resume.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
                 }}
               >
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />

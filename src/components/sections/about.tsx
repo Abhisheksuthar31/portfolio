@@ -1,7 +1,8 @@
 import React from 'react';
-import { Trophy, GraduationCap, Users, Target, Calendar, MapPin } from 'lucide-react';
+import { Trophy, GraduationCap, Users, Target, Download, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { SITE_CONFIG } from '@/config/settings';
 
 const achievements = [
   {
@@ -102,7 +103,22 @@ export const About = () => {
               </div>
 
               <div className="mt-8 flex flex-wrap gap-4">
-                <Button variant="outline" size="lg" className="glass-button">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="glass-button"
+                  onClick={() => {
+                    console.log("downloaded");
+                    // Create a temporary link to download the CV
+                    const link = document.createElement('a');
+                    link.href = SITE_CONFIG.files.resume;
+                    link.download = 'Abhishek-Suthar-CV.pdf';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
+                >
+                  <Download className="mr-2 h-5 w-5" />
                   Download CV
                 </Button>
               </div>

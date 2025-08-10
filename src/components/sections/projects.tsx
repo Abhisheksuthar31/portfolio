@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import projectsData from '@/data/projects.json';
 
-const filterOptions = ['All', 'Web', 'Mobile', 'MERN Stack'];
+const filterOptions = ['All', 'Full Stack', 'Web App', 'Mobile'];
 
 export const Projects = () => {
   const [projects, setProjects] = useState(projectsData);

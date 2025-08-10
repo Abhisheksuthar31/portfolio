@@ -1,113 +1,352 @@
 [
   {
-    "id": "e-commerce-app",
-    "title": "E-Commerce Mobile App",
-    "slug": "e-commerce-mobile-app",
-    "summary": "Full-stack React Native e-commerce app with payment integration",
-    "description": "A comprehensive mobile shopping application built with React Native, featuring user authentication, product catalog, shopping cart, and secure payment processing through Stripe integration.",
+    "id": "todo-list",
+    "title": "Todo List",
+    "slug": "todo-list",
+    "summary": "A website that allows users to create and manage their to-do lists",
+    "description": "A comprehensive todo list application built with HTML, CSS, and JavaScript. Features include task creation, editing, deletion, completion tracking, and local storage persistence. The app provides a clean, intuitive interface for managing daily tasks efficiently.",
     "role": "Full-Stack Developer",
     "teamSize": "Solo Project",
-    "tech": ["React Native", "Node.js", "MongoDB", "Stripe API", "Redux"],
-    "repoUrl": "https://github.com/abhisheksuthar31/ecommerce-app",
-    "demoUrl": "https://demo-ecommerce-app.com",
-    "category": "Mobile",
+    "tech": ["HTML", "CSS", "JavaScript", "Local Storage"],
+    "repoUrl": "https://github.com/abhisheksuthar31/todo-list",
+    "demoUrl": "https://abhisheksuthar31.github.io/todo-list",
+    "category": "Web App",
     "status": "Completed",
-    "duration": "3 months",
+    "duration": "1 week",
     "highlights": [
-      "Implemented secure user authentication and authorization",
-      "Integrated Stripe payment gateway for seamless transactions",
-      "Built responsive UI with smooth animations and transitions",
-      "Achieved 95% user satisfaction in beta testing",
-      "Deployed to both iOS and Android app stores"
+      "Clean and intuitive user interface",
+      "Persistent data storage using localStorage",
+      "Real-time task updates and completion tracking",
+      "Responsive design for all devices",
+      "Filter functionality for better task organization"
     ],
     "challenges": [
-      "Optimizing app performance for low-end devices",
-      "Implementing secure payment processing",
-      "Managing complex state with Redux"
+      "Implementing efficient local storage management",
+      "Creating smooth animations and transitions",
+      "Ensuring cross-browser compatibility"
     ],
     "learnings": [
-      "Advanced React Native development patterns",
-      "Payment gateway integration best practices",
-      "Mobile app deployment processes"
+      "DOM manipulation best practices",
+      "Local storage API implementation",
+      "Responsive design principles"
     ],
     "images": [
-      "/assets/projects/ecommerce-1.jpg",
-      "/assets/projects/ecommerce-2.jpg",
-      "/assets/projects/ecommerce-3.jpg"
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop"
     ]
   },
   {
-    "id": "task-manager-web",
-    "title": "Task Management Dashboard",
-    "slug": "task-management-dashboard",
-    "summary": "Modern web dashboard for team task management and collaboration",
-    "description": "A responsive web application built with React and TypeScript for managing team projects and tasks. Features real-time collaboration, deadline tracking, and progress visualization.",
+    "id": "animated-calculator",
+    "title": "Animated Calculator",
+    "slug": "animated-calculator",
+    "summary": "A website that features an animated calculator with basic arithmetic operations",
+    "description": "An interactive calculator application with smooth animations and modern design. Built using HTML, CSS, and JavaScript, it provides all basic arithmetic operations with visual feedback and engaging animations for better user experience.",
     "role": "Frontend Developer",
-    "teamSize": "3 developers",
-    "tech": ["React", "TypeScript", "Tailwind CSS", "Firebase", "Chart.js"],
-    "repoUrl": "https://github.com/abhisheksuthar31/task-manager",
-    "demoUrl": "https://taskflow-demo.netlify.app",
-    "category": "Web",
+    "teamSize": "Solo Project",
+    "tech": ["HTML", "CSS", "JavaScript", "CSS Animations"],
+    "repoUrl": "https://github.com/abhisheksuthar31/animated-calculator",
+    "demoUrl": "https://abhisheksuthar31.github.io/animated-calculator",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "1 week",
+    "highlights": [
+      "Smooth button press animations",
+      "Modern glassmorphism design",
+      "Error handling and validation",
+      "Keyboard support for input",
+      "Responsive layout for all screen sizes"
+    ],
+    "challenges": [
+      "Creating smooth CSS animations",
+      "Handling mathematical operations accurately",
+      "Implementing keyboard event listeners"
+    ],
+    "learnings": [
+      "CSS animation techniques",
+      "JavaScript event handling",
+      "Mathematical operation parsing"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "slug": "ecommerce-platform",
+    "summary": "A full-stack website built using the MERN stack featuring a comprehensive e-commerce platform",
+    "description": "A complete e-commerce solution built with MongoDB, Express.js, React, and Node.js. Features include user authentication, product catalog, shopping cart, payment integration, order management, and admin dashboard for comprehensive online shopping experience.",
+    "role": "Full-Stack Developer",
+    "teamSize": "Solo Project",
+    "tech": ["MongoDB", "Express.js", "React", "Node.js", "Stripe API", "JWT"],
+    "repoUrl": "https://github.com/abhisheksuthar31/ecommerce-platform",
+    "demoUrl": "https://ecommerce-platform-demo.netlify.app",
+    "category": "Full Stack",
     "status": "Completed",
     "duration": "2 months",
     "highlights": [
-      "Built responsive dashboard with modern UI/UX",
-      "Implemented real-time data synchronization",
-      "Created interactive charts and analytics",
-      "Added drag-and-drop task management",
-      "Achieved 98% accessibility score"
+      "Complete user authentication and authorization",
+      "Secure payment processing with Stripe",
+      "Real-time inventory management",
+      "Admin dashboard for order and product management",
+      "Responsive design with modern UI/UX"
     ],
     "challenges": [
-      "Real-time data synchronization across multiple users",
-      "Complex state management for nested task hierarchies",
-      "Optimizing performance for large datasets"
+      "Implementing secure payment gateway integration",
+      "Managing complex state across multiple components",
+      "Optimizing database queries for performance"
     ],
     "learnings": [
-      "Advanced React patterns and hooks",
-      "Real-time database management with Firebase",
-      "Accessibility best practices in web development"
+      "Full-stack MERN development",
+      "Payment gateway integration",
+      "Database design and optimization"
     ],
     "images": [
-      "/assets/projects/taskmanager-1.jpg",
-      "/assets/projects/taskmanager-2.jpg",
-      "/assets/projects/taskmanager-3.jpg"
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop"
     ]
   },
   {
-    "id": "flutter-weather-app",
-    "title": "Weather Forecast App",
-    "slug": "flutter-weather-app",
-    "summary": "Beautiful Flutter app with weather forecasts and location services",
-    "description": "A stunning weather application built with Flutter, featuring location-based weather data, 7-day forecasts, weather maps, and customizable themes with smooth animations.",
-    "role": "Mobile Developer",
+    "id": "library-management-system",
+    "title": "Library Management System",
+    "slug": "library-management-system",
+    "summary": "A website that enables users to manage library resources, including book cataloging and borrowing",
+    "description": "A comprehensive library management system built with HTML, CSS, and JavaScript. Features include book cataloging, member management, borrowing and returning processes, search functionality, and due date tracking for efficient library operations.",
+    "role": "Full-Stack Developer",
     "teamSize": "Solo Project",
-    "tech": ["Flutter", "Dart", "OpenWeather API", "Google Maps", "SQLite"],
-    "repoUrl": "https://github.com/abhisheksuthar31/flutter-weather",
-    "demoUrl": "https://play.google.com/store/weather-app",
-    "category": "Flutter",
-    "status": "In Progress",
-    "duration": "1.5 months",
+    "tech": ["HTML", "CSS", "JavaScript", "Local Storage", "JSON"],
+    "repoUrl": "https://github.com/abhisheksuthar31/library-management-system",
+    "demoUrl": "https://abhisheksuthar31.github.io/library-management-system",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "3 weeks",
     "highlights": [
-      "Integrated multiple weather APIs for accurate data",
-      "Implemented location-based services",
-      "Created beautiful animations and transitions",
-      "Added offline data caching capabilities",
-      "Designed custom widgets and themes"
+      "Complete book cataloging and search system",
+      "Member registration and management",
+      "Borrowing and return tracking",
+      "Due date notifications and fine calculations",
+      "Report generation for library statistics"
     ],
     "challenges": [
-      "Handling location permissions across platforms",
-      "Optimizing API calls and data caching",
-      "Creating smooth animations without performance issues"
+      "Implementing complex search and filter functionality",
+      "Managing relational data in local storage",
+      "Creating an intuitive admin interface"
     ],
     "learnings": [
-      "Flutter widget lifecycle and state management",
-      "Working with device APIs and permissions",
-      "Performance optimization in mobile apps"
+      "Data structure management",
+      "Complex JavaScript application architecture",
+      "User interface design for management systems"
     ],
     "images": [
-      "/assets/projects/weather-1.jpg",
-      "/assets/projects/weather-2.jpg",
-      "/assets/projects/weather-3.jpg"
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "slug": "password-generator",
+    "summary": "A website that generates strong and unique passwords for users",
+    "description": "A secure password generator application built with HTML, CSS, and JavaScript. Features customizable password criteria including length, character types, and complexity options. Includes password strength indicator and one-click copy functionality.",
+    "role": "Frontend Developer",
+    "teamSize": "Solo Project",
+    "tech": ["HTML", "CSS", "JavaScript", "Crypto API"],
+    "repoUrl": "https://github.com/abhisheksuthar31/password-generator",
+    "demoUrl": "https://abhisheksuthar31.github.io/password-generator",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "1 week",
+    "highlights": [
+      "Customizable password generation criteria",
+      "Real-time password strength indicator",
+      "One-click copy to clipboard functionality",
+      "Multiple password generation at once",
+      "Secure random generation algorithm"
+    ],
+    "challenges": [
+      "Implementing cryptographically secure random generation",
+      "Creating accurate password strength assessment",
+      "Ensuring cross-browser clipboard API compatibility"
+    ],
+    "learnings": [
+      "Cryptographic random number generation",
+      "Clipboard API implementation",
+      "Security best practices for password generation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "slug": "expense-tracker",
+    "summary": "A website that allows users to track their expenses and manage their finances",
+    "description": "A comprehensive expense tracking application built with HTML, CSS, and JavaScript. Features include expense categorization, budget setting, financial reports, data visualization with charts, and export functionality for better financial management.",
+    "role": "Full-Stack Developer",
+    "teamSize": "Solo Project",
+    "tech": ["HTML", "CSS", "JavaScript", "Chart.js", "Local Storage"],
+    "repoUrl": "https://github.com/abhisheksuthar31/expense-tracker",
+    "demoUrl": "https://abhisheksuthar31.github.io/expense-tracker",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "2 weeks",
+    "highlights": [
+      "Comprehensive expense categorization system",
+      "Interactive charts and data visualization",
+      "Budget setting and tracking functionality",
+      "Monthly and yearly financial reports",
+      "Data export to CSV functionality"
+    ],
+    "challenges": [
+      "Implementing complex data visualization",
+      "Creating accurate financial calculations",
+      "Designing intuitive categorization system"
+    ],
+    "learnings": [
+      "Data visualization with Chart.js",
+      "Financial application development",
+      "Advanced JavaScript data manipulation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "user-authentication-react-native",
+    "title": "User Authentication React Native",
+    "slug": "user-authentication-react-native",
+    "summary": "A mobile app that features a simple authentication flow, including login and user creation",
+    "description": "A React Native mobile application demonstrating complete user authentication flow. Features include user registration, login, password recovery, profile management, and secure token-based authentication with biometric support.",
+    "role": "Mobile Developer",
+    "teamSize": "Solo Project",
+    "tech": ["React Native", "Firebase Auth", "AsyncStorage", "Biometrics"],
+    "repoUrl": "https://github.com/abhisheksuthar31/user-authentication-react-native",
+    "demoUrl": "https://expo.dev/@abhisheksuthar31/user-auth-app",
+    "category": "Mobile",
+    "status": "Completed",
+    "duration": "2 weeks",
+    "highlights": [
+      "Complete authentication flow implementation",
+      "Biometric authentication support",
+      "Secure token management",
+      "Password recovery functionality",
+      "Cross-platform compatibility (iOS & Android)"
+    ],
+    "challenges": [
+      "Implementing secure token storage",
+      "Handling biometric authentication across platforms",
+      "Managing authentication state throughout the app"
+    ],
+    "learnings": [
+      "React Native authentication patterns",
+      "Mobile security best practices",
+      "Cross-platform development techniques"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "react-mui-vite",
+    "title": "React MUI Vite",
+    "slug": "react-mui-vite",
+    "summary": "A sample website built using React, MUI, and Vite, showcasing user fetching, grid showing, and nesting list selection",
+    "description": "A modern React application built with Material-UI and Vite, demonstrating advanced UI components, user data fetching, responsive grid layouts, and complex nested list selection functionality with efficient state management.",
+    "role": "Frontend Developer",
+    "teamSize": "Solo Project",
+    "tech": ["React", "Material-UI", "Vite", "Axios", "TypeScript"],
+    "repoUrl": "https://github.com/abhisheksuthar31/react-mui-vite",
+    "demoUrl": "https://react-mui-vite-demo.netlify.app",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "1.5 weeks",
+    "highlights": [
+      "Modern React development with Vite",
+      "Material-UI component integration",
+      "Advanced data fetching and state management",
+      "Responsive grid layouts",
+      "Complex nested list selection functionality"
+    ],
+    "challenges": [
+      "Optimizing performance with large data sets",
+      "Implementing complex nested selection logic",
+      "Creating responsive layouts with Material-UI"
+    ],
+    "learnings": [
+      "Modern React development practices",
+      "Material-UI advanced patterns",
+      "Build optimization with Vite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "simple-drawing-app",
+    "title": "Simple Drawing App",
+    "slug": "simple-drawing-app",
+    "summary": "A drawing app that allows users to draw on screen, change colors, save drawings as PNG, and adjust brush size",
+    "description": "An interactive drawing application built with HTML5 Canvas, CSS, and JavaScript. Features include multiple brush sizes, color palette, drawing tools, undo/redo functionality, and the ability to save drawings as PNG files.",
+    "role": "Frontend Developer",
+    "teamSize": "Solo Project",
+    "tech": ["HTML5 Canvas", "CSS", "JavaScript", "File API"],
+    "repoUrl": "https://github.com/abhisheksuthar31/simple-drawing-app",
+    "demoUrl": "https://abhisheksuthar31.github.io/simple-drawing-app",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "1.5 weeks",
+    "highlights": [
+      "Smooth drawing experience with HTML5 Canvas",
+      "Multiple brush sizes and colors",
+      "Undo/redo functionality",
+      "Save drawings as PNG files",
+      "Responsive design for touch devices"
+    ],
+    "challenges": [
+      "Implementing smooth drawing on canvas",
+      "Managing drawing history for undo/redo",
+      "Optimizing performance for real-time drawing"
+    ],
+    "learnings": [
+      "HTML5 Canvas API mastery",
+      "Event handling for drawing applications",
+      "File download implementation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop"
+    ]
+  },
+  {
+    "id": "simple-text-editor",
+    "title": "Simple Text Editor",
+    "slug": "simple-text-editor",
+    "summary": "A lightweight online editor that persists data to local storage with extensive formatting options",
+    "description": "A feature-rich text editor built with HTML, CSS, and JavaScript. Includes font selection, size adjustment, color customization, letter spacing, background colors, text formatting (bold, italic), alignment options, and automatic local storage persistence.",
+    "role": "Frontend Developer",
+    "teamSize": "Solo Project",
+    "tech": ["HTML", "CSS", "JavaScript", "Local Storage", "Rich Text API"],
+    "repoUrl": "https://github.com/abhisheksuthar31/simple-text-editor",
+    "demoUrl": "https://abhisheksuthar31.github.io/simple-text-editor",
+    "category": "Web App",
+    "status": "Completed",
+    "duration": "2 weeks",
+    "highlights": [
+      "Complete rich text editing functionality",
+      "Automatic data persistence with local storage",
+      "Extensive formatting options and controls",
+      "Real-time preview of formatting changes",
+      "Export functionality to multiple formats"
+    ],
+    "challenges": [
+      "Implementing cross-browser rich text editing",
+      "Managing complex formatting state",
+      "Ensuring consistent rendering across devices"
+    ],
+    "learnings": [
+      "Rich text editing implementation",
+      "Content-editable API usage",
+      "Advanced local storage techniques"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop"
     ]
   }
 ]

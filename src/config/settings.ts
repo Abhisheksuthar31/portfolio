@@ -37,14 +37,28 @@ export const SITE_CONFIG = {
 
   // File URLs
   files: {
-    resume: "https://drive.google.com/file/d/1dGcmUxHKjhGK7wE2vEn4FZxQwE8R9tE1/view?usp=sharing", // Dummy URL - replace with actual resume
+    resume: "https://example.com/abhishek-suthar-resume.pdf", // Dummy resume download URL
     cv: "/resume.pdf", // Local CV file
     logo: "/src/assets/logo.svg",
     profileImage: "/src/assets/profile-photo.jpg"
   },
 
   // Project Categories
-  projectCategories: ["All", "Web", "Mobile", "MERN Stack"],
+  projectCategories: ["All", "Full Stack", "Web App", "Mobile"],
+
+  // Project Images (dummy URLs - replace with actual project screenshots)
+  projectImages: {
+    todoList: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+    animatedCalculator: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=800&h=600&fit=crop",
+    ecommerce: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+    libraryManagement: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop",
+    passwordGenerator: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+    expenseTracker: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+    userAuth: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+    reactMui: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    drawingApp: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
+    textEditor: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop"
+  },
 
   // Contact Form Settings
   contact: {
